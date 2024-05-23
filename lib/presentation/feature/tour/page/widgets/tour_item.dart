@@ -13,7 +13,7 @@ class _TourItem extends StatelessWidget {
         context.router.push(const TourDetailRoute());
       },
       child: Container(
-        height: MediaQuery.sizeOf(context).width - const AppSizedBox.height32().height!,
+        height: MediaQuery.sizeOf(context).width -  AppSizedBox.height32().height!,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(16),
           image: const DecorationImage(
@@ -22,17 +22,17 @@ class _TourItem extends StatelessWidget {
           ),
         ),
         padding: const AppEdge.all8(),
-        child: const Column(
+        child:  Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Align(
+            const Align(
               alignment: Alignment.topRight,
               child: _HotDeal(),
             ),
-            Spacer(),
-            _Available(),
+            const Spacer(),
+            const _Available(),
             AppSizedBox.height8(),
-            _TripDescription(),
+            const _TripDescription(),
           ],
         ),
       ),

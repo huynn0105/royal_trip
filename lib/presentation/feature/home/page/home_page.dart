@@ -37,7 +37,7 @@ class _HomePageState extends State<HomePage> {
               padding: AppEdge.all16(),
               child: _Header(),
             ),
-            const AppSizedBox.height8(),
+             AppSizedBox.height8(),
             Padding(
               padding: const AppEdge.horizontal16(),
               child: Text(
@@ -45,12 +45,12 @@ class _HomePageState extends State<HomePage> {
                 style: UITextStyles.medium(20),
               ),
             ),
-            const AppSizedBox.height12(),
+             AppSizedBox.height12(),
             const Padding(
               padding: AppEdge.horizontal16(),
               child: UISearchTextField(),
             ),
-            const AppSizedBox.height12(),
+             AppSizedBox.height12(),
             SizedBox(
               height: MediaQuery.sizeOf(context).height * 0.4,
               child: Column(
@@ -71,7 +71,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                   ),
-                  const AppSizedBox.height8(),
+                   AppSizedBox.height8(),
                   SmoothPageIndicator(
                     controller: controller,
                     count: 4,
@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
             ),
-            const AppSizedBox.height32(),
+             AppSizedBox.height32(),
             Padding(
               padding: const AppEdge.horizontal16(),
               child: Text(
@@ -94,7 +94,7 @@ class _HomePageState extends State<HomePage> {
                 style: UITextStyles.medium(20),
               ),
             ),
-            const AppSizedBox.height16(),
+             AppSizedBox.height16(),
             ListView.separated(
               shrinkWrap: true,
               physics: const NeverScrollableScrollPhysics(),
@@ -108,12 +108,12 @@ class _HomePageState extends State<HomePage> {
                         context.router.push(const TourRoute());
                       },
                     ),
-                    const AppSizedBox.height8(),
+                     AppSizedBox.height8(),
                     const _ProductItem(),
                   ],
                 );
               },
-              separatorBuilder: (_, __) => const AppSizedBox.height16(),
+              separatorBuilder: (_, __) =>  AppSizedBox.height16(),
               itemCount: 4,
             )
           ],

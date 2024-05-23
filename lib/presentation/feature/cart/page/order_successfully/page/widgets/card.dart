@@ -75,39 +75,39 @@ class _CardContent extends StatelessWidget {
               color: UIColors.subText,
             ),
           ),
-          const AppSizedBox.height16(),
-          const AppSizedBox.height16(),
+           AppSizedBox.height16(),
+           AppSizedBox.height16(),
           const _InfoItem(
             title: 'Name',
             value: 'Vung Tau Seeing',
           ),
-          const AppSizedBox.height12(),
+           AppSizedBox.height12(),
           _InfoItem(
             title: 'Date',
             value: DateTime.now().toString(),
           ),
-          const AppSizedBox.height12(),
+           AppSizedBox.height12(),
           const _InfoItem(
             title: 'Name',
             value: 'Value',
           ),
-          const AppSizedBox.height12(),
+           AppSizedBox.height12(),
           const _InfoItem(
             title: 'Name',
             value: 'Value',
           ),
-          const AppSizedBox.height12(),
+           AppSizedBox.height12(),
           const _InfoItem(
             title: 'Name',
             value: 'Value',
           ),
-          const AppSizedBox.height16(),
+           AppSizedBox.height16(),
           const Divider(
             thickness: 1,
             height: 1,
             color: UIColors.divider,
           ),
-          const AppSizedBox.height16(),
+           AppSizedBox.height16(),
           Row(
             children: [
               Text(
@@ -123,7 +123,7 @@ class _CardContent extends StatelessWidget {
               ),
             ],
           ),
-          const AppSizedBox.height16(),
+           AppSizedBox.height16(),
         ],
       ),
     );

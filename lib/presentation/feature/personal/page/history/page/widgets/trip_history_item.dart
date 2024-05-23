@@ -26,26 +26,26 @@ class _TripHistoryCard extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const _OrderCreate(),
-          const AppSizedBox.height16(),
+           AppSizedBox.height16(),
           const Divider(
             height: 1,
             thickness: 1,
             color: UIColors.divider,
           ),
-          const AppSizedBox.height16(),
+           AppSizedBox.height16(),
           SizedBox(
             height: MediaQuery.sizeOf(context).width * 0.15,
             child: const _TripProduct(),
           ),
-          const AppSizedBox.height12(),
+           AppSizedBox.height12(),
           const _Total(),
-          const AppSizedBox.height24(),
+           AppSizedBox.height24(),
           const Divider(
             height: 1,
             thickness: 1,
             color: UIColors.divider,
           ),
-          const AppSizedBox.height16(),
+           AppSizedBox.height16(),
           const _CardRowButton()
         ],
       ),
@@ -96,7 +96,7 @@ class _TripProduct extends StatelessWidget {
           ),
           borderRadius: BorderRadius.circular(6),
         ),
-        const AppSizedBox.width8(),
+         AppSizedBox.width8(),
         Text(
           'Sightseeing Vung Tau seaport',
           style: UITextStyles.regular(13),
@@ -156,7 +156,7 @@ class _CardRowButton extends StatelessWidget {
           widget: Row(
             children: [
               const AppImage.asset(asset: 'ic_eye',width: 20,height: 20,color: UIColors.defaultText,),
-              const AppSizedBox.width8(),
+               AppSizedBox.width8(),
               Text(
                 'View detail',
                 style: UITextStyles.semi(12).copyWith(
@@ -166,7 +166,7 @@ class _CardRowButton extends StatelessWidget {
             ],
           ),
         ),
-        const AppSizedBox.width8(),
+         AppSizedBox.width8(),
         PrimaryButton(
           height: 40,
           onPressed: () {},
@@ -180,7 +180,7 @@ class _CardRowButton extends StatelessWidget {
           widget: Row(
             children: [
               const AppImage.asset(asset: 'ic_call', width: 20,height: 20,),
-              const AppSizedBox.width8(),
+               AppSizedBox.width8(),
               Text(
                 'Contact',
                 style: UITextStyles.semi(12).copyWith(

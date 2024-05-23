@@ -28,9 +28,9 @@ class HistoryPage extends StatelessWidget {
               return const _TripHistoryCard();
             },
             itemCount: 5,
-            separatorBuilder: (_, __) => const AppSizedBox.height16(),
+            separatorBuilder: (_, __) =>  AppSizedBox.height16(),
           ),
-          const AppSizedBox.height(50),
+           AppSizedBox.height(50),
         ],
       ),
     );

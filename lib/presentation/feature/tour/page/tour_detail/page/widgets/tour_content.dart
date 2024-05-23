@@ -15,7 +15,7 @@ class _TourContent extends StatelessWidget {
           'Sightseeing Vung Tau seaport',
           style: UITextStyles.bold(16),
         ),
-        const AppSizedBox.height12(),
+         AppSizedBox.height12(),
         Row(
           children: [
             _Button(
@@ -23,7 +23,7 @@ class _TourContent extends StatelessWidget {
               icon: 'ic_share',
               onTap: () {},
             ),
-            const AppSizedBox.width12(),
+             AppSizedBox.width12(),
             _Button(
               title: 'Add to wishlist',
               icon: 'ic_like',
@@ -31,17 +31,17 @@ class _TourContent extends StatelessWidget {
             ),
           ],
         ),
-        const AppSizedBox.height16(),
+         AppSizedBox.height16(),
         Text(
           'Overview',
           style: UITextStyles.bold(16),
         ),
-        const AppSizedBox.height12(),
+         AppSizedBox.height12(),
         Text(
           "Best known for its heritage sites and powdery shores, the coastal town of Da Nang is always on top of every tourist's holiday picks. But in recent years, the tourists have been seeking a new kind of wonder, and it's far from the ocean. Visit Ba Na Hills and learn why 1.5 million visitors flock to this place annually. Located at the peak of Chua Mountain, Ba Na Hills' only way of transportation is via cable car. Rated as one of the most impressive cable car systems in the world, the Ba Na cable car is an attraction in itself. See the mountain region's entirety - from high waterfalls and fogged peaks, to thick forests of tropical vegetation, the ride to the park sets the bar high in terms of natural sceneries. Get off Ba Na Hills station and be welcomed by a breathtaking 27m high Buddha statue surrounded by a garden of colorful flowers. Make the most out of your trip and go through every stop: Family Entertainment Center (FEC), Linh Ung Pagoda, Linh Phong Tu Tower, Debay Wine Cellar, French Village, Le Jardin D'Amour, Tombstone Temple, Linh Chua Linh Tu Temple, Campanile, Ba Shrine, Fantasy Park, Funincula, and Alpine Coaster. Explore all of these for a discounted price!",
           style: UITextStyles.regular(14),
         ),
-        const AppSizedBox.height16(),
+         AppSizedBox.height16(),
         Text(
           'Services & Equipments',
           style: UITextStyles.bold(16),
@@ -56,7 +56,7 @@ class _TourContent extends StatelessWidget {
                   width: 20,
                   height: 20,
                 ),
-                const AppSizedBox.width12(),
+                 AppSizedBox.width12(),
                 Text(
                   'Book airplane',
                   style: UITextStyles.regular(16),
@@ -66,7 +66,7 @@ class _TourContent extends StatelessWidget {
           },
           shrinkWrap: true,
           physics: const NeverScrollableScrollPhysics(),
-          separatorBuilder: (_, __) => const AppSizedBox.height12(),
+          separatorBuilder: (_, __) =>  AppSizedBox.height12(),
           itemCount: 3,
         ),
         PrimaryButton(
@@ -75,7 +75,7 @@ class _TourContent extends StatelessWidget {
           buttonColor: UIColors.primaryColor,
           textColor: UIColors.defaultText,
         ),
-        const AppSizedBox.height16(),
+         AppSizedBox.height16(),
         ListView.separated(
           itemBuilder: (_, index) {
             return ClipRRect(
@@ -86,7 +86,7 @@ class _TourContent extends StatelessWidget {
               ),
             );
           },
-          separatorBuilder: (_, __) => const AppSizedBox.height12(),
+          separatorBuilder: (_, __) =>  AppSizedBox.height12(),
           itemCount: 3,
           shrinkWrap: true,
           physics: const NeverScrollableScrollPhysics(),

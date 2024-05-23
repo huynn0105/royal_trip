@@ -24,15 +24,15 @@ class ConfirmOrderPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return  Scaffold(
       body: AppBarListView(
         title: 'Confirm order',
         children: [
-          _ContactInformation(),
+          const _ContactInformation(),
           AppSizedBox.height16(),
-          _Voucher(),
+          const _Voucher(),
           AppSizedBox.height16(),
-          _PaymentMethod(),
+          const _PaymentMethod(),
           AppSizedBox.height32(),
         ],
       ),

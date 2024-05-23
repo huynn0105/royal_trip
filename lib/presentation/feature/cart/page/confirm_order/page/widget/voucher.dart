@@ -48,7 +48,7 @@ class _Voucher extends StatelessWidget {
               ),
             ],
           ),
-          const AppSizedBox.height16(),
+           AppSizedBox.height16(),
           Row(
             children: [
               Column(

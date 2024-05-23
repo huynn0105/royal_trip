@@ -23,19 +23,19 @@ class RegisterPage extends StatelessWidget {
         child: ListView(
           padding: const AppEdge.all16(),
           children: [
-            const AppSizedBox.height24(),
-            const Align(
+             AppSizedBox.height24(),
+             Align(
               alignment: Alignment.center,
               child:  Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  AppImage.asset(asset: 'logo'),
+                  const AppImage.asset(asset: 'logo'),
                   AppSizedBox.width14(),
-                  AppImage.asset(asset: 'brand'),
+                  const AppImage.asset(asset: 'brand'),
                 ],
               ),
             ),
-            const AppSizedBox.height(40),
+             AppSizedBox.height(40),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -49,26 +49,26 @@ class RegisterPage extends StatelessWidget {
                 ),
               ],
             ),
-            const AppSizedBox.height24(),
+             AppSizedBox.height24(),
             const UITextFieldOutline(
               hintText: 'Email',
               prefixIcon: 'ic_mail',
             ),
-            const AppSizedBox.height8(),
+             AppSizedBox.height8(),
             const UITextFieldOutline(
               hintText: 'Password',
               isPassword: true,
               prefixIcon: 'ic_lock',
               suffixIcon: 'ic_eye',
             ),
-            const AppSizedBox.height8(),
+             AppSizedBox.height8(),
             const UITextFieldOutline(
               hintText: 'Confirm Password',
               isPassword: true,
               prefixIcon: 'ic_lock',
               suffixIcon: 'ic_eye',
             ),
-            const AppSizedBox.height24(),
+             AppSizedBox.height24(),
             PrimaryButton(
               title: 'Create account',
               textColor: UIColors.defaultText,
@@ -76,7 +76,7 @@ class RegisterPage extends StatelessWidget {
                 context.router.push(const LoginRoute());
               },
             ),
-            const AppSizedBox.height32(),
+             AppSizedBox.height32(),
           ],
         ),
       ),

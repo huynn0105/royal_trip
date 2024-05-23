@@ -32,7 +32,7 @@ class _Button extends StatelessWidget {
               height: 20,
               width: 20,
             ),
-            const AppSizedBox.width8(),
+             AppSizedBox.width8(),
             Text(
               title,
               style: UITextStyles.bold(13).copyWith(
@@ -94,7 +94,7 @@ class _BottomButton extends StatelessWidget {
             ),
           ),
         ),
-        const AppSizedBox.width12(),
+         AppSizedBox.width12(),
         Expanded(
           child: PrimaryButton(
             onPressed: () {},

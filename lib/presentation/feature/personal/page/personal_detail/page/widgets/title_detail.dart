@@ -19,7 +19,7 @@ class _TitleDetail extends StatelessWidget {
           title,
           style: UITextStyles.semi(14),
         ),
-        const AppSizedBox.height5(),
+         AppSizedBox.height5(),
         Text(
           description,
           style: UITextStyles.regular(12),

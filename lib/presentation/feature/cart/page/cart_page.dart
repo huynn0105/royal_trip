@@ -27,17 +27,17 @@ class CartPage extends StatelessWidget {
         title: 'Cart',
         children: [
           const _SelectAllButton(),
-          const AppSizedBox.height16(),
+           AppSizedBox.height16(),
           ListView.separated(
             shrinkWrap: true,
             physics: const NeverScrollableScrollPhysics(),
             itemBuilder: (_, index) {
               return const _CartItem();
             },
-            separatorBuilder: (_, __) => const AppSizedBox.height16(),
+            separatorBuilder: (_, __) =>  AppSizedBox.height16(),
             itemCount: 3,
           ),
-          const AppSizedBox.height(52),
+           AppSizedBox.height(52),
         ],
       ),
       bottomNavigationBar: const _ProcessOrderButton(),

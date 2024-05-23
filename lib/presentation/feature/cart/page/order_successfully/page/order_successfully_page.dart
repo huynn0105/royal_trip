@@ -21,26 +21,26 @@ class OrderSuccessfullyPage extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            const AppSizedBox.height32(),
+             AppSizedBox.height32(),
             Text(
               'Thanks you for order',
               style: UITextStyles.bold(18),
             ),
-            const AppSizedBox.height8(),
+             AppSizedBox.height8(),
             Text(
               'We have sent a order to your email',
               style: UITextStyles.regular(14).copyWith(
                 color: UIColors.subText,
               ),
             ),
-            const AppSizedBox.height8(),
+             AppSizedBox.height8(),
             Text(
               'abc@gmail.com',
               style: UITextStyles.regular(14).copyWith(
                 color: UIColors.subText,
               ),
             ),
-            const AppSizedBox.height32(),
+             AppSizedBox.height32(),
             Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(16),

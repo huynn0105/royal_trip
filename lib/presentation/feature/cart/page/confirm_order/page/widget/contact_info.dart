@@ -24,27 +24,27 @@ class _ContactInformation extends StatelessWidget {
             'Contact information',
             style: UITextStyles.medium(14),
           ),
-          const AppSizedBox.height16(),
+           AppSizedBox.height16(),
           const UITextFieldOutline(
             hintText: 'First name',
           ),
-          const AppSizedBox.height8(),
+           AppSizedBox.height8(),
           const UITextFieldOutline(
             hintText: 'Last name',
           ),
-          const AppSizedBox.height8(),
+           AppSizedBox.height8(),
           const UITextFieldOutline(
             hintText: 'Contact method',
           ),
-          const AppSizedBox.height8(),
+           AppSizedBox.height8(),
           const UITextFieldOutline(
             hintText: 'Email',
           ),
-          const AppSizedBox.height8(),
+           AppSizedBox.height8(),
           const UITextFieldOutline(
             hintText: 'Mobile number',
           ),
-          const AppSizedBox.height8(),
+           AppSizedBox.height8(),
         ],
       ),
     );

@@ -90,15 +90,15 @@ class _ScheduleItem extends StatelessWidget {
       height: 120,
       child: Row(
         children: [
-          const Column(
+           Column(
             children: [
               AppSizedBox.height(4),
-              AppImage.asset(
+              const AppImage.asset(
                 asset: 'ic_progress',
                 height: 16,
                 width: 16,
               ),
-              Expanded(
+              const Expanded(
                 child: DottedLine(
                   dashColor: UIColors.primaryColor,
                   direction: Axis.vertical,
@@ -108,7 +108,7 @@ class _ScheduleItem extends StatelessWidget {
               ),
             ],
           ),
-          const AppSizedBox.width12(),
+           AppSizedBox.width12(),
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -117,7 +117,7 @@ class _ScheduleItem extends StatelessWidget {
                   title,
                   style: UITextStyles.semi(16),
                 ),
-                const AppSizedBox.height5(),
+                 AppSizedBox.height5(),
                 Text(
                   'The International Medical, Hospital & Pharmaceutical In Hanoi',
                   maxLines: 2,

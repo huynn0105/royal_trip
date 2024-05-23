@@ -12,7 +12,7 @@ class _ProductItem extends StatelessWidget {
         context.router.push(const TourRoute());
       },
       child: Container(
-        height: MediaQuery.sizeOf(context).width - const AppSizedBox.height32().height!,
+        height: MediaQuery.sizeOf(context).width -  AppSizedBox.height32().height!,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(16),
           image: const DecorationImage(

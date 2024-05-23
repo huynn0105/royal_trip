@@ -10,7 +10,7 @@ class _TripTitle extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         const _CheckBox(),
-        const AppSizedBox.width12(),
+         AppSizedBox.width12(),
         ClipRRect(
           borderRadius: BorderRadius.circular(6),
           child: const AppImage.asset(
@@ -19,7 +19,7 @@ class _TripTitle extends StatelessWidget {
             height: 64,
           ),
         ),
-        const AppSizedBox.width12(),
+         AppSizedBox.width12(),
         Expanded(
           child: Text(
             'Sightseeing Vung Tau seaport',

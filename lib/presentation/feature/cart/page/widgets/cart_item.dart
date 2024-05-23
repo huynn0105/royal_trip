@@ -20,14 +20,14 @@ class _CartItem extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const _TripTitle(),
-          const AppSizedBox.height12(),
+           AppSizedBox.height12(),
           Column(
             children: List.generate(
               2,
                   (index) => const _Option(),
             ),
           ),
-          const AppSizedBox.height8(),
+           AppSizedBox.height8(),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -45,13 +45,13 @@ class _CartItem extends StatelessWidget {
               ),
             ],
           ),
-          const AppSizedBox.height12(),
+           AppSizedBox.height12(),
           const Divider(
             thickness: 1,
             height: 1,
             color: UIColors.divider,
           ),
-          const AppSizedBox.height12(),
+           AppSizedBox.height12(),
           Row(
             children: [
               const Expanded(
@@ -68,7 +68,7 @@ class _CartItem extends StatelessWidget {
                 ),
                 buttonColor: UIColors.primaryColor,
               ),
-              const AppSizedBox.width8(),
+               AppSizedBox.width8(),
               PrimaryButton(
                 onPressed: () {},
                 height: 50,
@@ -110,7 +110,7 @@ class _AddRemoveItem extends StatelessWidget {
           title,
           style: UITextStyles.regular(14),
         ),
-        const AppSizedBox.height8(),
+         AppSizedBox.height8(),
         Row(
           children: [
             AppSplashButton(
@@ -155,12 +155,12 @@ class _Option extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const AppSizedBox.width8(),
+         AppSizedBox.width8(),
         const Icon(
           Icons.circle,
           size: 8,
         ),
-        const AppSizedBox.width8(),
+         AppSizedBox.width8(),
         Text(
           'Hotel',
           style: UITextStyles.regular(14),

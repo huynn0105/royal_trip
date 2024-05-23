@@ -61,7 +61,7 @@ class _PaymentMethod extends StatelessWidget {
                 isEdit: paymentMethod.isEdit,
               );
             },
-            separatorBuilder: (_, __) => const AppSizedBox.height12(),
+            separatorBuilder: (_, __) =>  AppSizedBox.height12(),
             itemCount: PaymentMethodEnum.values.length,
           ),
           Row(
@@ -143,7 +143,7 @@ class _PaymentMethodItem extends StatelessWidget {
             asset: icon,
             height: 32,
           ),
-          const AppSizedBox.width12(),
+           AppSizedBox.width12(),
           Expanded(
             child: Column(
               mainAxisSize: MainAxisSize.min,

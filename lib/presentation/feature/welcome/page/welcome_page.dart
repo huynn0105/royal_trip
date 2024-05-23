@@ -21,13 +21,13 @@ class WelcomePage extends StatelessWidget {
           padding: const AppEdge.all16(),
           child: Column(
             children: [
-              const AppSizedBox.height(30),
-              const Row(
+               AppSizedBox.height(30),
+               Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  AppImage.asset(asset: 'logo'),
+                  const AppImage.asset(asset: 'logo'),
                   AppSizedBox.width14(),
-                  AppImage.asset(asset: 'brand'),
+                  const AppImage.asset(asset: 'brand'),
                 ],
               ),
               const Padding(
@@ -38,7 +38,7 @@ class WelcomePage extends StatelessWidget {
                 'Welcome to RoyalTripVN',
                 style: UITextStyles.bold(16),
               ),
-              const AppSizedBox.height5(),
+               AppSizedBox.height5(),
               Text(
                 'Welcome to RoyalTripVN',
                 style: UITextStyles.regular(14),

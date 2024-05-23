@@ -21,19 +21,19 @@ class LoginPage extends StatelessWidget {
         child: ListView(
           padding: const AppEdge.all16(),
           children: [
-            const AppSizedBox.height24(),
-            const Align(
+             AppSizedBox.height24(),
+             Align(
               alignment: Alignment.center,
               child: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  AppImage.asset(asset: 'logo'),
+                  const AppImage.asset(asset: 'logo'),
                   AppSizedBox.width14(),
-                  AppImage.asset(asset: 'brand'),
+                  const AppImage.asset(asset: 'brand'),
                 ],
               ),
             ),
-            const AppSizedBox.height(40),
+             AppSizedBox.height(40),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -47,19 +47,19 @@ class LoginPage extends StatelessWidget {
                 ),
               ],
             ),
-            const AppSizedBox.height24(),
+             AppSizedBox.height24(),
             const UITextFieldOutline(
               hintText: 'Email',
               prefixIcon: 'ic_mail',
             ),
-            const AppSizedBox.height8(),
+             AppSizedBox.height8(),
             const UITextFieldOutline(
               hintText: 'Password',
               isPassword: true,
               prefixIcon: 'ic_lock',
               suffixIcon: 'ic_eye',
             ),
-            const AppSizedBox.height8(),
+             AppSizedBox.height8(),
             Align(
               alignment: Alignment.centerRight,
               child: SplashButton(
@@ -72,7 +72,7 @@ class LoginPage extends StatelessWidget {
                 onTap: () {},
               ),
             ),
-            const AppSizedBox.height24(),
+             AppSizedBox.height24(),
             PrimaryButton(
               title: 'Sign in',
               textColor: UIColors.defaultText,
@@ -80,7 +80,7 @@ class LoginPage extends StatelessWidget {
                 context.router.replaceAll([const TabMain()]);
               },
             ),
-            const AppSizedBox.height24(),
+             AppSizedBox.height24(),
             Align(
               alignment: Alignment.center,
               child: Text(
@@ -88,13 +88,13 @@ class LoginPage extends StatelessWidget {
                 style: UITextStyles.regular(14),
               ),
             ),
-            const AppSizedBox.height24(),
+             AppSizedBox.height24(),
             PrimaryButton(
               widget: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   const AppImage.asset(asset: 'ic_facebook'),
-                  const AppSizedBox.width16(),
+                   AppSizedBox.width16(),
                   Text(
                     'Continue with Facebook',
                     style: UITextStyles.semi(14).copyWith(
@@ -106,13 +106,13 @@ class LoginPage extends StatelessWidget {
               onPressed: () {},
               buttonColor: UIColors.blueFb,
             ),
-            const AppSizedBox.height12(),
+             AppSizedBox.height12(),
             PrimaryButton(
               widget: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   const AppImage.asset(asset: 'ic_google'),
-                  const AppSizedBox.width16(),
+                   AppSizedBox.width16(),
                   Text(
                     'Continue with Google',
                     style: UITextStyles.semi(14).copyWith(
@@ -125,13 +125,13 @@ class LoginPage extends StatelessWidget {
               buttonColor: UIColors.white,
               elevation: 5,
             ),
-            const AppSizedBox.height12(),
+             AppSizedBox.height12(),
             PrimaryButton(
               widget: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   const AppImage.asset(asset: 'ic_apple'),
-                  const AppSizedBox.width16(),
+                   AppSizedBox.width16(),
                   Text(
                     'Continue with Apple',
                     style: UITextStyles.semi(14).copyWith(
@@ -143,7 +143,7 @@ class LoginPage extends StatelessWidget {
               buttonColor: UIColors.defaultText,
               onPressed: () {},
             ),
-            const AppSizedBox.height32(),
+             AppSizedBox.height32(),
 
           ],
         ),

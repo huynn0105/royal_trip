@@ -19,7 +19,7 @@ class _SelectAllButton extends StatelessWidget {
       child: Row(
         children: [
           const _CheckBox(),
-          const AppSizedBox.width12(),
+           AppSizedBox.width12(),
           Text(
             'Select all',
             style: UITextStyles.semi(14),
@@ -62,7 +62,7 @@ class _ProcessOrderButton extends StatelessWidget {
               ),
             ],
           ),
-          const AppSizedBox.height16(),
+           AppSizedBox.height16(),
           PrimaryButton(
             onPressed: () {
               context.router.push(const ConfirmOrderRoute());

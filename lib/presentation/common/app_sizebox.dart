@@ -1,101 +1,102 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class AppSizedBox extends SizedBox {
-  const AppSizedBox.width(
+  AppSizedBox.width(
     double width, {
     super.key,
-  }) : super(width: width);
+  }) : super(width: width.w);
 
-  const AppSizedBox.height(
+  AppSizedBox.height(
     double height, {
     super.key,
-  }) : super(height: height);
+  }) : super(height: height.w);
 
-  const AppSizedBox.height8({
+  AppSizedBox.height8({
     super.key,
-  }) : super(height: 8);
+  }) : super(height: 8.w);
 
-  const AppSizedBox.height5({
+  AppSizedBox.height5({
     super.key,
-  }) : super(height: 5);
+  }) : super(height: 5.w);
 
-  const AppSizedBox.height10({
+  AppSizedBox.height10({
     super.key,
-  }) : super(height: 10);
+  }) : super(height: 10.w);
 
-  const AppSizedBox.height12({
+  AppSizedBox.height12({
     super.key,
-  }) : super(height: 12);
+  }) : super(height: 12.w);
 
-  const AppSizedBox.height14({
+  AppSizedBox.height14({
     super.key,
-  }) : super(height: 14);
+  }) : super(height: 14.w);
 
-  const AppSizedBox.height16({
+  AppSizedBox.height16({
     super.key,
-  }) : super(height: 16);
+  }) : super(height: 16.w);
 
-  const AppSizedBox.height18({
+  AppSizedBox.height18({
     super.key,
-  }) : super(height: 18);
+  }) : super(height: 18.w);
 
-  const AppSizedBox.height20({
+  AppSizedBox.height20({
     super.key,
-  }) : super(height: 20);
+  }) : super(height: 20.w);
 
-  const AppSizedBox.height24({
+  AppSizedBox.height24({
     super.key,
-  }) : super(height: 24);
+  }) : super(height: 24.w);
 
-  const AppSizedBox.height32({
+  AppSizedBox.height32({
     super.key,
-  }) : super(height: 32);
+  }) : super(height: 32.w);
 
-  const AppSizedBox.width4({
+  AppSizedBox.width4({
     super.key,
-  }) : super(width: 4);
+  }) : super(width: 4.w);
 
-  const AppSizedBox.width6({
+  AppSizedBox.width6({
     super.key,
-  }) : super(width: 6);
+  }) : super(width: 6.w);
 
-  const AppSizedBox.width8({
+  AppSizedBox.width8({
     super.key,
-  }) : super(width: 8);
+  }) : super(width: 8.w);
 
-  const AppSizedBox.width10({
+  AppSizedBox.width10({
     super.key,
-  }) : super(width: 10);
+  }) : super(width: 10.w);
 
-  const AppSizedBox.width12({
+  AppSizedBox.width12({
     super.key,
-  }) : super(width: 12);
+  }) : super(width: 12.w);
 
-  const AppSizedBox.width14({
+  AppSizedBox.width14({
     super.key,
-  }) : super(width: 14);
+  }) : super(width: 14.w);
 
-  const AppSizedBox.width16({
+  AppSizedBox.width16({
     super.key,
-  }) : super(width: 14);
+  }) : super(width: 14.w);
 
-  const AppSizedBox.width18({
+  AppSizedBox.width18({
     super.key,
-  }) : super(width: 18);
+  }) : super(width: 18.w);
 
-  const AppSizedBox.width20({
+  AppSizedBox.width20({
     super.key,
-  }) : super(width: 20);
+  }) : super(width: 20.w);
 
-  const AppSizedBox.width24({
+  AppSizedBox.width24({
     super.key,
-  }) : super(width: 24);
+  }) : super(width: 24.w);
 
-  const AppSizedBox.width28({
+  AppSizedBox.width28({
     super.key,
-  }) : super(width: 28);
+  }) : super(width: 28.w);
 
-  const AppSizedBox.width32({
+  AppSizedBox.width32({
     super.key,
-  }) : super(width: 32);
+  }) : super(width: 32.w);
 }

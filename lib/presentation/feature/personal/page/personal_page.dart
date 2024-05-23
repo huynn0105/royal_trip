@@ -22,12 +22,12 @@ class PersonalPage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              const AppSizedBox.height(52),
+               AppSizedBox.height(52),
               const CircleAvatar(
                 radius: 45,
                 child: FlutterLogo(),
               ),
-              const AppSizedBox.height8(),
+               AppSizedBox.height8(),
               Text(
                 'My Name',
                 style: UITextStyles.medium(18),
@@ -38,7 +38,7 @@ class PersonalPage extends StatelessWidget {
                   color: UIColors.subText,
                 ),
               ),
-              const AppSizedBox.height(52),
+               AppSizedBox.height(52),
               ListView.separated(
                 shrinkWrap: true,
                 physics: const NeverScrollableScrollPhysics(),
@@ -76,7 +76,7 @@ class PersonalPage extends StatelessWidget {
               ),
               const Spacer(),
               _Logout(),
-              const AppSizedBox.height32(),
+               AppSizedBox.height32(),
             ],
           ),
         ),
@@ -104,7 +104,7 @@ class _PersonalItem extends StatelessWidget {
             width: 20,
             height: 20,
           ),
-          const AppSizedBox.width8(),
+           AppSizedBox.width8(),
           Expanded(
             child: Text(
               item.title,

@@ -26,9 +26,9 @@ class TourDetailPage extends StatelessWidget {
                 AppImage.asset(
                   asset: 'img_product',
                   width: double.infinity,
-                  height: MediaQuery.sizeOf(context).width - const AppSizedBox.height32().height!,
+                  height: MediaQuery.sizeOf(context).width -  AppSizedBox.height32().height!,
                 ),
-                const AppSizedBox.height8(),
+                 AppSizedBox.height8(),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: List.generate(

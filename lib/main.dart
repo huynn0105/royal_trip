@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:royal_trip/di/locator.dart';
 import 'package:royal_trip/presentation/routes/routes.dart';
 
@@ -19,13 +20,19 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     runAppMarker += 1;
     debugPrint("runAppMarker: $runAppMarker");
-    return MaterialApp.router(
-      title: 'Royal Trip',
-      debugShowCheckedModeBanner: false,
-      routerConfig: locator<AppRouter>().config(),
-      theme: Theme.of(context).copyWith(
-        scaffoldBackgroundColor: UIColors.backgroundColor,
-      ),
-    );
+    return ScreenUtilInit(
+        designSize: const Size(375, 812),
+        minTextAdapt: true,
+        splitScreenMode: true,
+        builder: (_, child) {
+          return MaterialApp.router(
+            title: 'Royal Trip',
+            debugShowCheckedModeBanner: false,
+            routerConfig: locator<AppRouter>().config(),
+            theme: Theme.of(context).copyWith(
+              scaffoldBackgroundColor: UIColors.backgroundColor,
+            ),
+          );
+        });
   }
 }

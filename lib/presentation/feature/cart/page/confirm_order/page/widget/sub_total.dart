@@ -31,7 +31,7 @@ class _Subtotal extends StatelessWidget {
               ),
             ],
           ),
-          const AppSizedBox.height12(),
+           AppSizedBox.height12(),
           Row(
             children: [
               Text(
@@ -48,7 +48,7 @@ class _Subtotal extends StatelessWidget {
               const Icon(Icons.keyboard_arrow_down_sharp)
             ],
           ),
-          const AppSizedBox.height12(),
+           AppSizedBox.height12(),
           Row(
             children: [
               Text(
@@ -66,7 +66,7 @@ class _Subtotal extends StatelessWidget {
               ),
             ],
           ),
-          const AppSizedBox.height16(),
+           AppSizedBox.height16(),
           PrimaryButton(
             onPressed: () {
               context.router.push(const OrderSuccessfullyRoute());
